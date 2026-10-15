@@ -1,0 +1,21 @@
+body{
+background-image:url('flower.jpg');
+background-position:center;
+background-repeat:no-repeat;
+}
+
+h1{clear:both;}
+
+font{font-variant:small-caps;}
+
+p.special{transform: scaleX(0.85); 
+transform-origin: left; 
+outline-style:solid; 
+outline-width:3px; 
+display:inline-block;
+}
+
+p.color{
+color-scheme: light;
+color: LightPink;
+}
