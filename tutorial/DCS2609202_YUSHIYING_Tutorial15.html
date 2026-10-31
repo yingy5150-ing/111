@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html><head><title>Form-Text Input</title>
+<link rel=icon href=sunflower.png type=image/png>
+<meta name=viewport content=width=device-width,initial-scale=1.0>
+<body topmargin=50>
+<center>
+<form>
+<table style="background-color:powderblue;
+color:black;font-family:TimeNewRohman;
+font-size:160%;
+text-align:left;
+width:70%;height:50%;">
+<br>
+
+<caption><b>Personal details:</b></caption>
+
+<br><br>
+
+<tr>
+<td style="background-color:#7A818E;width:40%;color:white;padding:15px;">First Name:</td>
+<td width=60%><input type=text name=fname size=40 maxlength=5></td>
+</tr>
+<td style="background-color:#7A818E;width=40%;color:white;padding:15px;">Last Name:</td>
+<td width=60%><input type=text name=lname></td>
+</tr>
+<tr>
+<td style="background-color:#7A818E;width=40%;color:white;padding:15px;">Gender:</td>
+<td width=60%><input type=radio name=gender value=Male>Male
+<input type=radio name=gender value=Female>Female</td>
+</tr>
+<tr>
+<td style="background-color:#7A818E;width=40%;color:white;padding:15px;">Choose your favorite subjects:</td>
+<td width=60%><input type=checkbox name=fav_sub value=DCS4103>DCS4103
+<input type=checkbox name=fav_sub value=DCS3003>DCS3003
+<input type=checkbox name=fav_sub value=MST1003>MST1003
+<input type=checkbox name=fav_sub value=MST2003>MST2003</td>
+</tr>
+<tr>
+<td style="background-color:#7A818E;width=40%;color:white;padding:15px;">Address:</td>
+<td width=60%><textarea rows=4 cols=30 name=address></textarea></td>
+</tr>
+<tr>
+<td style="background-color:#7A818E;width=40%;color:white;padding:15px;">Date of birth:</td>
+<td width=60%><input type=date name=dob></td>
+</tr>
+<tr>
+<td style="background-color:#7A818E;width=40%;color:white;padding:15px;">Login password:</td>
+<td width=60%><input type=password name=loginpass></td>
+</tr>
+<tr>
+<td style="background-color:#7A818E;width=40%;color:white;padding:15px;">Course:</td>
+<td width=60%><select>
+<option value="0">-List of Course-</option>
+<option value="DCS" selected>Diploma In Computer Science</option>
+<optgroup label="Diploma In Computer Science">
+<option value="DCS_S1">Semester 1</option>
+<option value="DCS_S2">Semester 2</option>
+<option value="DCS_S3">Semester 3</option>
+<option value="DCS_S4">Semester 4</option>
+<option value="DCS_S5">Semester 5</option>
+<option value="DCS_S6">Semester 6</option>
+</optgroup>
+<option value="DIB">Diploma In Business</option>
+<option value="DAS">Diploma In Airline Services</option>
+</select></td>
+</tr></table>
+
+<input type=submit value=Submit>
+<input type=reset value=Reset>
+
+
+<br>
+
+</form>
+</center>
+</body>
+
+</html>

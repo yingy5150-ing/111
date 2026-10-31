@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html><head>
+<title>Tutorial14</title>
+<link rel=icon href=sunflower.jpg type=image/jpg>
+<meta name=viewport content=width=device-width, initial-scale=1.0>
+<script>
+function hidePassword(){
+    var password = document.getElementById("password");
+
+    if (password.type == "password") {
+        password.type = "text";
+    } else {
+        password.type = "password";
+    }
+}
+</script>     
+</head>
+<body>
+<h1> Login Page </h1><br>
+
+Username:<br>
+<input type=text name=username id=username>
+<br><br>
+
+Password:<br>
+<input type=password id="password" name=userpassword>
+<button type="button" onclick="hidePassword();">show</button>
+<br><br>
+
+<input type="submit" value="Login">
+
+
+
+</body></html>
